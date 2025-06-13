@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Botonera Warcraft</title>
+  <link rel="icon" href="../img/icons/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body class="bodyCentrada">
+  <div class="contenedorRaza">
+    <h2 id="nombreRaza" class="tituloRaza"></h2>
+    <div id="unidadLista" class="gridUnidades"></div>
+    <div class="navegacionUnidades">
+      <button class="botonAnterior" id="botonAnterior"></button>
+
+      <button class="botonWarcraft botonSecundario" onclick="viewChange('categories', '../sounds/interface/mouseClick.wav')">
+        Volver
+      </button>
+
+      <button class="botonSiguiente" id="botonSiguiente"></button>
+    </div>
+  </div>
+  <script src="../js/functions.js"></script>
+  <script src="../js/loadUnits.js"></script>
+</body>
+
+</html>

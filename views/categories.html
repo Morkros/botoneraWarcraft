@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Botonera Warcraft</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body class="bodyCentrada">
+  <main class="container">
+    <h1 class="titulo">Categorías</h1>
+
+    <div class="grid">
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=humanos', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNFootman.png" alt="Humanos" class="iconoImg">
+        <span class="nombreIcono">Humanos</span>
+      </div>
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=orcos', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNPeon.png" alt="Orcos" class="iconoImg">
+        <span class="nombreIcono">Orcos</span>
+      </div>
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=muertosVivientes', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNGhoul.png" alt="Muertos Vivientes" class="iconoImg">
+        <span class="nombreIcono">Muertos Vivientes</span>
+      </div>
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=elfosNocturnos', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNArcher.png" alt="Elfos Nocturnos" class="iconoImg">
+        <span class="nombreIcono">Elfos Nocturnos</span>
+      </div>
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=neutrales', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNMurloc.png" alt="Neutrales" class="iconoImg">
+        <span class="nombreIcono">Neutrales</span>
+      </div>
+      <div class="iconoTexto" onclick="viewChange('units.html?raza=extras', '../sounds/interface/mouseClick.wav')">
+        <img src="../img/unitIcon/BTNSelectHeroOff.png" alt="Extras" class="iconoImg">
+        <span class="nombreIcono">Extras</span>
+      </div>
+    </div>
+
+    <button class="botonWarcraft botonSecundario" onclick="viewChange('../index', '../sounds/interface/mouseClick.wav')">Volver</button>
+  </main>
+
+  <script src="../js/functions.js"></script>
+</body>
+</html>

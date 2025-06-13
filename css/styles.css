@@ -1,0 +1,317 @@
+/* =======================
+   FUENTES
+======================= */
+@font-face {
+  font-family: 'LifeCraft';
+  src: url('../fonts/LifeCraft_Font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FRIZQT';
+  src: url('../fonts/FRIZQT.ttf') format('truetype');
+}
+
+/* =======================
+   ESTILOS GENERALES
+======================= */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'FRIZQT', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.bodyCentrada {
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  max-width: 90%;
+  min-height: 80vh;
+}
+
+/* =======================
+   BOTONES GENERALES
+======================= */
+.botonWarcraft {
+  width: 128px;
+  height: 32px;
+  background-image: url('../img/buttons/generalUse/darkGoldButtonUp.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+
+  font-family: 'FRIZQT', serif;
+  font-size: 16px;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0.5em 0;
+}
+
+.botonWarcraft:active {
+  background-image: url('../img/buttons/generalUse/darkGoldButtonDown.png');
+}
+
+.botonSecundario {
+  position: fixed;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  font-size: 18px;
+}
+
+
+/* =======================
+   IMÁGENES DE LOGOS
+======================= */
+.logoBotonera {
+  width: 250px;
+  max-width: 80vw;
+}
+
+.logoAsociacion {
+  margin-top: 2em;
+  width: 150px;
+  max-width: 50vw;
+}
+
+/* =======================
+   GRIDS Y LAYOUT
+======================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columnas fijas */
+  column-gap: 20px;
+  row-gap: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  /* Opcional: control visual */
+}
+
+.gridUnidades {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* fuerza 3 columnas */
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-items: center;
+  max-width: 400px;
+}
+
+/* =======================
+   ELEMENTOS: CATEGORÍAS / UNIDADES
+======================= */
+.iconoTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconoImg {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 5px;
+}
+
+.nombreIcono {
+  background-image: url('../img/background/backgroundTile.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.navegacionUnidades {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.botonAnterior,
+.botonSiguiente {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  bottom: 10vh;
+  z-index: 1000;
+}
+
+.botonAnterior {
+  background-image: url('../img/buttons/previous/prevPageUp.png');
+  left: 40vw;
+}
+
+.botonAnterior:active {
+  background-image: url('../img/buttons/previous/prevPageDown.png');
+}
+
+.botonSiguiente {
+  background-image: url('../img/buttons/next/nextPageUp.png');
+  right: 40vw;
+}
+
+.botonSiguiente:active {
+  background-image: url('../img/buttons/next/nextPageDown.png');
+}
+
+.botonAnteriorInactivo,
+.botonSiguienteInactivo {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  bottom: 10vh;
+  z-index: 1000;
+}
+
+.botonAnteriorInactivo {
+  background-image: url('../img/buttons/previous/prevPageDisabled.png');
+  left: 40vw;
+}
+
+.botonSiguienteInactivo {
+  background-image: url('../img/buttons/next/nextPageDisabled.png');
+  right: 40vw;
+}
+
+/* =======================
+   CONTENEDORES
+======================= */
+.contenedorRaza {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.tituloRaza {
+  background-image: url('../img/background/backgroundTile.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.titulo {
+  background-image: url('../img/background/backgroundTile.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 24px;
+  margin-bottom: 20px;
+}
+
+/* =======================
+   RESPONSIVE DESIGN
+======================= */
+@media (max-width: 768px) {
+  .botonWarcraft {
+    width: 100px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .logoBotonera {
+    width: 200px;
+  }
+
+  .logoAsociacion {
+    width: 100px;
+  }
+
+  .iconoImg {
+    width: 48px;
+    height: 48px;
+  }
+
+  .nombreIcono {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .titulo {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .botonWarcraft {
+    width: 90px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .logoBotonera {
+    width: 160px;
+  }
+
+  .logoAsociacion {
+    width: 80px;
+  }
+
+  .iconoImg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nombreIcono {
+    font-size: 9px;
+  }
+
+  .titulo {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+}

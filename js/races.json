@@ -1,0 +1,778 @@
+{
+    "razas": {
+        "humanos": {
+            "nombre": "Humanos",
+            "unidades": {
+                "soldadoRaso": {
+                    "nombre": "soldado Raso",
+                    "icono": "../img/unitIcon/BTNFootman.png",
+                    "frases": [
+                        {
+                            "texto": "Si, mi señor",
+                            "audio": "../sounds/humans/soldadoRaso/footmanYes1.wav"
+                        },
+                        {
+                            "texto": "Rupert, te necesito",
+                            "audio": "../sounds/humans/soldadoRaso/footmanPissed3.wav"
+                        },
+                        {
+                            "texto": "Dejádmelos a mí",
+                            "audio": "footmanYesAttack1.wav"
+                        },
+                        {
+                            "texto": "Al ataque!",
+                            "audio": "footmanYesAttack2.wav"
+                        },
+                        {
+                            "texto": "A las armas!",
+                            "audio": "footmanYesAttack3.wav"
+                        },
+                        {
+                            "texto": "No me chilles que no te veo",
+                            "audio": "footmanPissed1.wav"
+                        },
+                        {
+                            "texto": "Pilla la espada y con la horda acaba",
+                            "audio": "footmanPissed2.wav"
+                        },
+                        {
+                            "texto": "Nadie es perfecto, por suerte",
+                            "audio": "footmanPissed4.wav"
+                        },
+                        {
+                            "texto": "Listo para la acción",
+                            "audio": "footmanReady1.wav"
+                        },
+                        {
+                            "texto": "Por Lordaeron",
+                            "audio": "footmanWarcry1.wav"
+                        },
+                        {
+                            "texto": "¿Órdenes?",
+                            "audio": "footmanWhat1.wav"
+                        },
+                        {
+                            "texto": "¿Qué necesitas?",
+                            "audio": "footmanWhat2.wav"
+                        },
+                        {
+                            "texto": "Di la palabra",
+                            "audio": "footmanWhat4.wav"
+                        }
+                    ]
+                },
+                "arthasHumano": {
+                    "nombre": "Arthas Menethil",
+                    "icono": "../img/unitIcon/BTNArthas.png",
+                    "frases": [
+                        {
+                            "texto": "La luz es mi fuerza",
+                            "audio": "arthasWhat1.wav"
+                        },
+                        {
+                            "texto": "No es necesario hacer una reverencia",
+                            "audio": "arthasWhat4.wav"
+                        },
+                        {
+                            "texto": "Un plan sólido",
+                            "audio": "arthasYes3.wav"
+                        },
+                        {
+                            "texto": "Estúpido bellaco",
+                            "audio": "arthasYesAttack1.wav"
+                        },
+                        {
+                            "texto": "Siente mi cólera",
+                            "audio": "arthasYesAttack5.wav"
+                        },
+                        {
+                            "texto": "Ha llegado la justicia",
+                            "audio": "arthasYesAttack6.wav"
+                        },
+                        {
+                            "texto": "Hay que purgar toda la ciudad",
+                            "audio": "H06Arthas06.wav"
+                        },
+                        {
+                            "texto": "¿Tengo que considerarlo como un acto de traición?",
+                            "audio": "H06Arthas10.wav"
+                        },
+                        {
+                            "texto": "No tienes remedio",
+                            "audio": "arthasYesAttack3.wav"
+                        },
+                        {
+                            "texto": "Por mi padre, el rey",
+                            "audio": "arthasYesAttack2.wav"
+                        },
+                        {
+                            "texto": "Por el honor",
+                            "audio": "arthasYes4.wav"
+                        },
+                        {
+                            "texto": "Por supuesto",
+                            "audio": "arthasYes2.wav"
+                        },
+                        {
+                            "texto": "Lucho por la luz",
+                            "audio": "arthasWhat3.wav"
+                        },
+                        {
+                            "texto": "¿Hay algún peligro?",
+                            "audio": "arthasWhat2.wav"
+                        },
+                        {
+                            "texto": "Por Lordaeron",
+                            "audio": "arthasWarcry1.wav"
+                        },
+                        {
+                            "texto": "Se lo que estoy haciendo",
+                            "audio": "arthasPissed6.wav"
+                        },
+                        {
+                            "texto": "Que la luz ilumine mi camino",
+                            "audio": "arthasPissed3.wav"
+                        },
+                        {
+                            "texto": "Debería estar yo al mando",
+                            "audio": "arthasPissed5.wav"
+                        },
+                        {
+                            "texto": "Que la luz me de fuerza",
+                            "audio": "arthasPissed4.wav"
+                        },
+                        {
+                            "texto": "Maldito seas Mal'Ganis, te perseguire hasta los confines de la tierra",
+                            "audio": "h06arthas46.wav"
+                        }
+                    ]
+                },
+                "kaelthas": {
+                    "nombre": "Kael'thas Sunstrider",
+                    "icono": "../img/unitIcon/BTNHeroBloodElfPrince.png",
+                    "frases": [
+                        {
+                            "texto": "Estoy nerviosillo",
+                            "audio": "kaelWhat1.wav"
+                        },
+                        {
+                            "texto": "Mi gente debe ser vengada",
+                            "audio": "kaelWhat3.wav"
+                        },
+                        {
+                            "texto": "Percibo algo escurridizo",
+                            "audio": "kaelWhat5.wav"
+                        },
+                        {
+                            "texto": "Esto es demasiado fácil",
+                            "audio": "kaelYesAttack3.wav"
+                        },
+                        {
+                            "texto": "Venganza",
+                            "audio": "kaelYesAttack2.wav"
+                        },
+                        {
+                            "texto": "Que el fuego os purgue",
+                            "audio": "kaelYesAttack1.wav"
+                        },
+                        {
+                            "texto": "¿Qué pasa?",
+                            "audio": "kaelWhat2.wav"
+                        },
+                        {
+                            "texto": "De mi tierra no quedan más que cenizas y dolor",
+                            "audio": "kaelPissed1.wav"
+                        },
+                        {
+                            "texto": "Mi sed de magia me esta nublando el juicio",
+                            "audio": "kaelPissed2.wav"
+                        },
+                        {
+                            "texto": "Solo siento odio y furia",
+                            "audio": "kaelPissed3.wav"
+                        },
+                        {
+                            "texto": "La Alianza ha fallado a mi gente",
+                            "audio": "kaelPissed4.wav"
+                        },
+                        {
+                            "texto": "Estoy esperando",
+                            "audio": "kaelReady1.wav"
+                        },
+                        {
+                            "texto": "Endo-enah Quel'thalas",
+                            "audio": "kaelWarcray1.wav"
+                        },
+                        {
+                            "texto": "Deberíamos movernos en breve",
+                            "audio": "kaelWhat4.wav"
+                        },
+                        {
+                            "texto": "Haré todo lo posible",
+                            "audio": "kaelYes3.wav"
+                        }
+                    ]
+                },
+                "equipoMortero": {
+                    "nombre": "Equipo Mortero",
+                    "icono": "../img/unitIcon/BTNMortarTeam.png",
+                    "frases": []
+                },
+                "campesino": {
+                    "nombre": "Campesino",
+                    "icono": "../img/unitIcon/BTNPeasant.png",
+                    "frases": []
+                },
+                "fusilero": {
+                    "nombre": "Fusilero",
+                    "icono": "../img/unitIcon/BTNRifleman.png",
+                    "frases": []
+                },
+                "capitan": {
+                    "nombre": "Capitán",
+                    "icono": "../img/unitIcon/BTNTheCaptain.png",
+                    "frases": []
+                },
+                "muradin": {
+                    "nombre": "Muradin Bronzebeard",
+                    "icono": "../img/unitIcon/BTNHeroMountainKing.png",
+                    "frases": []
+                },
+                "garithos": {
+                    "nombre": "Othmar Garithos",
+                    "icono": "../img/unitIcon/BTNGarithos.png",
+                    "frases": []
+                },
+                "elfoSanguinarioTrabajador": {
+                    "nombre": "Elfo Sanguinario Trabajador",
+                    "icono": "../img/unitIcon/BTNBloodElfPeasant.png",
+                    "frases": []
+                },
+                "jineteDeGrifos": {
+                    "nombre": "Jinete De Grifos",
+                    "icono": "../img/unitIcon/BTNGryphonRider.png",
+                    "frases": []
+                },
+                "deshacedorDeHechizos": {
+                    "nombre": "Deshacedor De Hechizos",
+                    "icono": "../img/unitIcon/BTNSpellBreaker.png",
+                    "frases": []
+                },
+                "caballero": {
+                    "nombre": "Caballero",
+                    "icono": "../img/unitIcon/BTNKnight.png",
+                    "frases": []
+                },
+                "autogiro": {
+                    "nombre": "Autogiro",
+                    "icono": "../img/unitIcon/BTNFlyingMachine.png",
+                    "frases": []
+                },
+                "sacerdote": {
+                    "nombre": "Sacerdote",
+                    "icono": "../img/unitIcon/BTNPriest.png",
+                    "frases": []
+                },
+                "hechicera": {
+                    "nombre": "Hechicera",
+                    "icono": "../img/unitIcon/BTNSorceress.png",
+                    "frases": []
+                },
+                "jineteDeDragonHawk": {
+                    "nombre": "Jinete De DragonHawk",
+                    "icono": "../img/unitIcon/BTNDragonHawk.png",
+                    "frases": []
+                },
+                "reyDeLaMontaña": {
+                    "nombre": "Rey De La Montaña",
+                    "icono": "../img/unitIcon/BTNHeroMountainKing.png",
+                    "frases": []
+                },
+                "paladin": {
+                    "nombre": "Paladín",
+                    "icono": "../img/unitIcon/BTNHeroPaladin.png",
+                    "frases": []
+                },
+                "archimago": {
+                    "nombre": "Archimago",
+                    "icono": "../img/unitIcon/BTNHeroArchMage.png",
+                    "frases": []
+                },
+                "magoSanguinario": {
+                    "nombre": "Mago Sanguinario",
+                    "icono": "../img/unitIcon/BTNHeroBloodElfPrince.png",
+                    "frases": []
+                },
+                "Uther": {
+                    "nombre": "Uther The Lightbringer",
+                    "icono": "../img/unitIcon/BTNHeroPaladin.png",
+                    "frases": []
+                },
+                "jaina": {
+                    "nombre": "Jaina Proudmoore",
+                    "icono": "../img/unitIcon/BTNJaina.png",
+                    "frases": []
+                },
+                "Sylvanas": {
+                    "nombre": "Sylvanas Windrunner",
+                    "icono": "../img/unitIcon/BTNSylvanusWindRunner.png",
+                    "frases": []
+                },
+                "dragonHawk": {
+                    "nombre": "DragonHawk",
+                    "icono": "../img/unitIcon/BTNDragonHawk.png",
+                    "frases": []
+                },
+                "interfaz": {
+                    "nombre": "Interfaz",
+                    "icono": "../img/unitIcon/BTNSelectHeroOff.png",
+                    "frases": []
+                }
+            }
+        },
+        "orcos": {
+            "nombre": "Orcos",
+            "unidades": {
+                "cairne": {
+                    "nombre": "Cairne Bloodhoof",
+                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
+                    "frases": []
+                },
+                "grunt": {
+                    "nombre": "Grunt",
+                    "icono": "../img/unitIcon/BTNGrunt.png",
+                    "frases": []
+                },
+                "drekthar": {
+                    "nombre": "Drek'thar",
+                    "icono": "../img/unitIcon/BTNHeroFarseer.png",
+                    "frases": []
+                },
+                "peon": {
+                    "nombre": "Peón",
+                    "icono": "../img/unitIcon/BTNPeon.png",
+                    "frases": []
+                },
+                "chaman": {
+                    "nombre": "Chamán",
+                    "icono": "../img/unitIcon/BTNShaman.png",
+                    "frases": []
+                },
+                "curanderoTroll": {
+                    "nombre": "Curandero Troll",
+                    "icono": "../img/unitIcon/BTNWitchDoctor.png",
+                    "frases": []
+                },
+                "trollArrancacabezas": {
+                    "nombre": "Troll Arrancacabezas",
+                    "icono": "../img/unitIcon/BTNHeadhunter.png",
+                    "frases": []
+                },
+                "thrall": {
+                    "nombre": "Thrall (Go'el)",
+                    "icono": "../img/unitIcon/BTNThrall.png",
+                    "frases": []
+                },
+                "rexxar": {
+                    "nombre": "Rexxar",
+                    "icono": "../img/unitIcon/BTNBeastMaster.png",
+                    "frases": []
+                },
+                "jefeTauren": {
+                    "nombre": "Jefe Tauren",
+                    "icono": "../img/unitIcon/BTNheroTaurenChieftain.png",
+                    "frases": []
+                },
+                "rokhan": {
+                    "nombre": "Rokhan",
+                    "icono": "../img/unitIcon/BTNShadowHunter.png",
+                    "frases": []
+                },
+                "jefeDeGuerraOrco": {
+                    "nombre": "Jefe De Guerra Orco",
+                    "icono": "../img/unitIcon/BTNChaosWarlord.png",
+                    "frases": []
+                },
+                "tauren": {
+                    "nombre": "Tauren",
+                    "icono": "../img/unitIcon/BTNTauren.png",
+                    "frases": []
+                },
+                "samuro": {
+                    "nombre": "Samuro",
+                    "icono": "../img/unitIcon/BTNHeroBladeMaster.png",
+                    "frases": []
+                },
+                "espirituCaminante": {
+                    "nombre": "Espíritu Caminante",
+                    "icono": "../img/unitIcon/BTNSpiritWalker.png",
+                    "frases": []
+                },
+                "jineteDeViento": {
+                    "nombre": "Jinete De Viento",
+                    "icono": "../img/unitIcon/BTNWyvernRider.png",
+                    "frases": []
+                },
+                "incursor": {
+                    "nombre": "Incursor",
+                    "icono": "../img/unitIcon/BTNRaider.png",
+                    "frases": []
+                },
+                "grommash": {
+                    "nombre": "Grommash Hellscream",
+                    "icono": "../img/unitIcon/BTNHellScream.png",
+                    "frases": []
+                },
+                "maestroDeLasEspadas": {
+                    "nombre": "Maestro De Las Espadas",
+                    "icono": "../img/unitIcon/BTNHeroBladeMaster.png",
+                    "frases": []
+                },
+                "nazgrel": {
+                    "nombre": "Nazgrel",
+                    "icono": "../img/unitIcon/BTNRaider.png",
+                    "frases": []
+                },
+                "vidente": {
+                    "nombre": "Vidente",
+                    "icono": "../img/unitIcon/BTNHeroFarseer.png",
+                    "frases": []
+                },
+                "CazadorDeSombras": {
+                    "nombre": "Cazador De Sombras",
+                    "icono": "../img/unitIcon/BTNShadowHunter.png",
+                    "frases": []
+                },
+                "jineteDeMurcielagoTroll": {
+                    "nombre": "Jinete De Murciélago Troll",
+                    "icono": "../img/unitIcon/BTNTrollBatRider.png",
+                    "frases": []
+                },
+                "interfaz": {
+                    "nombre": "Interfaz",
+                    "icono": "../img/unitIcon/BTNSelectHeroOff.png",
+                    "frases": []
+                }
+            }
+        },
+        "muertosVivientes": {
+            "nombre": "Muertos Vivientes",
+            "unidades": {
+                "acolito": {
+                    "nombre": "Acólito",
+                    "icono": "../img/unitIcon/BTNAcolyte.png",
+                    "frases": []
+                },
+                "arthasNoMuerto": {
+                    "nombre": "Arthas Menethil",
+                    "icono": "../img/unitIcon/BTNHeroDeathKnight.png",
+                    "frases": []
+                },
+                "senorDeLaCripta": {
+                    "nombre": "Señor De La Cripta",
+                    "icono": "../img/unitIcon/BTNHeroCryptLord.png",
+                    "frases": []
+                },
+                "senorDelTerror": {
+                    "nombre": "Señor Del Terror",
+                    "icono": "../img/unitIcon/BTNHeroDreadLord.png",
+                    "frases": []
+                },
+                "kelthuzad": {
+                    "nombre": "Kel'thuzad",
+                    "icono": "../img/unitIcon/BTNLichVersion2.png",
+                    "frases": []
+                },
+                "banshee": {
+                    "nombre": "Banshee",
+                    "icono": "../img/unitIcon/BTNBanshee.png",
+                    "frases": []
+                },
+                "necrofago": {
+                    "nombre": "Necrófago",
+                    "icono": "../img/unitIcon/BTNGhoul.png",
+                    "frases": []
+                },
+                "demonioDeLaCripta": {
+                    "nombre": "Demonio De La Cripta",
+                    "icono": "../img/unitIcon/BTNCryptFiend.png",
+                    "frases": []
+                },
+                "tichondrius": {
+                    "nombre": "Tichondrius",
+                    "icono": "../img/unitIcon/BTNTichondrius.png",
+                    "frases": []
+                },
+                "lich": {
+                    "nombre": "Lich",
+                    "icono": "../img/unitIcon/BTNLichVersion2.png",
+                    "frases": []
+                },
+                "sombra": {
+                    "nombre": "Sombra",
+                    "icono": "../img/unitIcon/BTNShade.png",
+                    "frases": []
+                },
+                "abominacion": {
+                    "nombre": "Abominación",
+                    "icono": "../img/unitIcon/BTNAbomination.png",
+                    "frases": []
+                },
+                "nigromante": {
+                    "nombre": "Nigromante",
+                    "icono": "../img/unitIcon/BTNNecromancer.png",
+                    "frases": []
+                },
+                "sylvanas": {
+                    "nombre": "Sylvanas Windrunner",
+                    "icono": "../img/unitIcon/BTNBansheeRanger.png",
+                    "frases": []
+                },
+                "caballeroDeLaMuerte": {
+                    "nombre": "Caballero De La Muerte",
+                    "icono": "../img/unitIcon/BTNHeroDeathKnight.png",
+                    "frases": []
+                },
+                "interfaz": {
+                    "nombre": "Interfaz",
+                    "icono": "../img/unitIcon/BTNSelectHeroOff.png",
+                    "frases": []
+                }
+            }
+        },
+        "elfosNocturnos": {
+            "nombre": "Elfos Nocturnos",
+            "unidades": {
+                "druidaDeLaZarpa": {
+                    "nombre": "Druida De La Zarpa",
+                    "icono": "../img/unitIcon/BTNDruidOfTheClaw.png",
+                    "frases": []
+                },
+                "druidaDeLaGarra": {
+                    "nombre": "Druida De La Garra",
+                    "icono": "../img/unitIcon/BTNDruidOfTheTalon.png",
+                    "frases": []
+                },
+                "driade": {
+                    "nombre": "Dríade",
+                    "icono": "../img/unitIcon/BTNDryad.png",
+                    "frases": []
+                },
+                "cenarius": {
+                    "nombre": "Cenarius",
+                    "icono": "../img/unitIcon/BTNKeeperOfTheGrove.png",
+                    "frases": []
+                },
+                "maiev": {
+                    "nombre": "Maiev Shadowsong",
+                    "icono": "../img/unitIcon/BTNWarden2.png",
+                    "frases": []
+                },
+                "illidan": {
+                    "nombre": "Illidan Stormrage",
+                    "icono": "../img/unitIcon/BTNEvilIllidan.png",
+                    "frases": []
+                },
+                "sacerdotisaDeLaLuna": {
+                    "nombre": "Sacerdotisa De La Luna",
+                    "icono": "../img/unitIcon/BTNPriestessOfTheMoon.png",
+                    "frases": []
+                },
+                "malfurion": {
+                    "nombre": "Malfurion Stormrage", 
+                    "icono": "../img/unitIcon/BTNFurion.png",
+                    "frases": []
+                },
+                "arquera": {
+                    "nombre": "Arquera",
+                    "icono": "../img/unitIcon/BTNArcher.png",
+                    "frases": []
+                },
+                "guardianDelBosque": {
+                    "nombre": "Guardián Del Bosque",
+                    "icono": "../img/unitIcon/BTNKeeperOfTheGrove.png",
+                    "frases": []
+                },
+                "cazadorDeDemonios": {
+                    "nombre": "Cazador De Demonios",
+                    "icono": "../img/unitIcon/BTNHeroDemonHunter.png",
+                    "frases": []
+                },
+                "guardiana": {
+                    "nombre": "Guardiana",
+                    "icono": "../img/unitIcon/BTNHeroWarden.png",
+                    "frases": []
+                },
+                "cazadora": {
+                    "nombre": "Cazadora",
+                    "icono": "../img/unitIcon/BTNHuntress.png",
+                    "frases": []
+                },
+                "elfoNocturnoCorredor": {
+                    "nombre": "Elfo Nocturno Corredor",
+                    "icono": "../img/unitIcon/BTNNightElfRunner.png",
+                    "frases": []
+                },
+                "jineteDeHipogrifo": {
+                    "nombre": "Jinete De Hipogrifo",
+                    "icono": "../img/unitIcon/BTNHippogriffRider.png",
+                    "frases": []
+                },
+                "avatarDeVenganza": {
+                    "nombre": "Avatar De Venganza",
+                    "icono": "../img/unitIcon/BTNSpiritOfVengeance.png",
+                    "frases": []
+                },
+                "espirituDeVenganza": {
+                    "nombre": "Espíritu De Venganza",
+                    "icono": "../img/unitIcon/BTNAvengingWatcher.png",
+                    "frases": []
+                },
+                "shandris": {
+                    "nombre": "Shandris Feathermoon",
+                    "icono": "../img/unitIcon/BTNShandris.png",
+                    "frases": []
+                },
+                "naisha": {
+                    "nombre": "Naisha",
+                    "icono": "../img/unitIcon/BTNHuntress.png",
+                    "frases": []
+                },
+                "interfaz": {
+                    "nombre": "Interfaz",
+                    "icono": "../img/unitIcon/BTNSelectHeroOff.png",
+                    "frases": []
+                }
+            }
+        },
+        "neutrales": {
+            "nombre": "Neutrales",
+            "unidades": {
+                "mirmidonNaga": {
+                    "nombre": "Mirmidón Naga",
+                    "icono": "../img/unitIcon/BTNNagaMyrmidon.png",
+                    "frases": []
+                },
+                "ladyVashj": {
+                    "nombre": "Lady Vashj/Bruja De Mar Naga",
+                    "icono": "../img/unitIcon/BTNNagaSeaWitch.png",
+                    "frases": []
+                },
+                "guardianRealNaga": {
+                    "nombre": "Guardián Real Naga",
+                    "icono": "../img/unitIcon/BTNNagaMyrmidonRoyalGuard.png",
+                    "frases": []
+                },
+                "sirenaNaga": {
+                    "nombre": "Sirena Naga",
+                    "icono": "../img/unitIcon/BTNSeaWitch.png",
+                    "frases": []
+                },
+                "murloc": {
+                    "nombre": "Murloc",
+                    "icono": "../img/unitIcon/BTNMurloc.png",
+                    "frases": []
+                },
+                "ogro": {
+                    "nombre": "Ogro",
+                    "icono": "../img/unitIcon/BTNOgre.png",
+                    "frases": []
+                },
+                "satiro": {
+                    "nombre": "Sátiro",
+                    "icono": "../img/unitIcon/BTNSatyr.png",
+                    "frases": []
+                },
+                "trollDelBosque": {
+                    "nombre": "Troll Del Bosque",
+                    "icono": "../img/unitIcon/BTNForestTroll.png",
+                    "frases": []
+                },
+                "trollDeHielo": {
+                    "nombre": "Troll De Hielo",
+                    "icono": "../img/unitIcon/BTNIceTroll.png",
+                    "frases": []
+                },
+                "bandido": {
+                    "nombre": "Bandido",
+                    "icono": "../img/unitIcon/BTNBandit.png",
+                    "frases": []
+                },
+                "zapadorGoblin": {
+                    "nombre": "Zapador Goblin",
+                    "icono": "../img/unitIcon/BTNGoblinSapper.png",
+                    "frases": []
+                },
+                "dirigibleGoblin": {
+                    "nombre": "Dirigible Goblin",
+                    "icono": "../img/unitIcon/BTNGoblinZeppelin.png",
+                    "frases": []
+                },
+                "alquimistaPandaren": {
+                    "nombre": "Alquimista Pandaren",
+                    "icono": "../img/unitIcon/BTNPandarenBrewmaster.png",
+                    "frases": []
+                },
+                "mercenarioOscuro": {
+                    "nombre": "Mercenario Oscuro",
+                    "icono": "../img/unitIcon/BTNBansheeRanger.png",
+                    "frases": []
+                },
+                "señorDelFoso": {
+                    "nombre": "Señor Del Foso",
+                    "icono": "../img/unitIcon/BTNPitLord.png",
+                    "frases": []
+                },
+                "señorDelFuego": {
+                    "nombre": "Señor Del Fuego",
+                    "icono": "../img/unitIcon/BTNHeroAvatarOfFlame.png",
+                    "frases": []
+                },
+                "alquimista": {
+                    "nombre": "Alquimista",
+                    "icono": "../img/unitIcon/BTNHeroAlchemist.png",
+                    "frases": []
+                },
+                "hojalatero": {
+                    "nombre": "Hojalatero",
+                    "icono": "../img/unitIcon/BTNHeroTinker.png",
+                    "frases": []
+                },
+                "Draenei": {
+                    "nombre": "Draenei",
+                    "icono": "../img/unitIcon/BTNDranaiMage.png",
+                    "frases": []
+                },
+                "ninoAldeano": {
+                    "nombre": "Niño Aldeano",
+                    "icono": "../img/unitIcon/BTNVillagerKid.png",
+                    "frases": []
+                },
+                "akama": {
+                    "nombre": "Akama",
+                    "icono": "../img/unitIcon/BTNDranaiAkama.png",
+                    "frases": []
+                },
+                "aldeano": {
+                    "nombre": "Aldeano",
+                    "icono": "../img/unitIcon/BTNVillagerMan.png",
+                    "frases": []
+                },
+                "aldeana": {
+                    "nombre": "Aldeana",
+                    "icono": "../img/unitIcon/BTNVillagerWoman.png",
+                    "frases": []
+                },
+                "sucubo": {
+                    "nombre": "Súcubo",
+                    "icono": "../img/unitIcon/BTNDemoness.png",
+                    "frases": []
+                }
+            }
+        },
+        "extras": {
+            "nombre": "Extras",
+            "unidades": {}
+        }
+    }
+}
