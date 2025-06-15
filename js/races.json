@@ -380,7 +380,7 @@
                 },
                 "jefeTauren": {
                     "nombre": "Jefe Tauren",
-                    "icono": "../img/unitIcon/BTNheroTaurenChieftain.png",
+                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
                     "frases": []
                 },
                 "rokhan": {
@@ -400,7 +400,7 @@
                 },
                 "samuro": {
                     "nombre": "Samuro",
-                    "icono": "../img/unitIcon/BTNHeroBladeMaster.png",
+                    "icono": "../img/unitIcon/BTNHeroBlademaster.png",
                     "frases": []
                 },
                 "espirituCaminante": {
@@ -425,7 +425,7 @@
                 },
                 "maestroDeLasEspadas": {
                     "nombre": "Maestro De Las Espadas",
-                    "icono": "../img/unitIcon/BTNHeroBladeMaster.png",
+                    "icono": "../img/unitIcon/BTNHeroBlademaster.png",
                     "frases": []
                 },
                 "nazgrel": {
