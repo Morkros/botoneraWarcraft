@@ -333,6 +333,9 @@
         "orcos": {
             "nombre": "Orcos",
             "unidades": {
+                "jefeTauren": {
+                    "nombre": "Jefe Tauren",
+                    "icono": "../img/unitIcon/BTNheroTaurenChieftain.png",
                     "frases": []
                 },
                 "grunt": {
@@ -584,6 +587,7 @@
                     "frases": []
                 },
                 "malfurion": {
+                    "nombre": "Malfurion Stormrage",
                     "icono": "../img/unitIcon/BTNFurion.png",
                     "frases": []
                 },
@@ -776,7 +780,6 @@
         },
         "extras": {
             "nombre": "Extras",
-            "unidades": {}
             "unidades": {
                 "otrosJuegos": {
                     "nombre": "Otros Juegos",
