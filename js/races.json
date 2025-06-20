@@ -335,7 +335,7 @@
             "unidades": {
                 "jefeTauren": {
                     "nombre": "Jefe Tauren",
-                    "icono": "../img/unitIcon/BTNheroTaurenChieftain.png",
+                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
                     "frases": []
                 },
                 "grunt": {
@@ -378,14 +378,6 @@
                     "icono": "../img/unitIcon/BTNBeastMaster.png",
                     "frases": []
                 },
-<<<<<<< Updated upstream
-                "jefeTauren": {
-                    "nombre": "Jefe Tauren",
-                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
-                    "frases": []
-                },
-=======
->>>>>>> Stashed changes
                 "rokhan": {
                     "nombre": "Rokhan",
                     "icono": "../img/unitIcon/BTNShadowHunter.png",
