@@ -333,9 +333,6 @@
         "orcos": {
             "nombre": "Orcos",
             "unidades": {
-                "cairne": {
-                    "nombre": "Cairne Bloodhoof",
-                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
                     "frases": []
                 },
                 "grunt": {
@@ -378,11 +375,14 @@
                     "icono": "../img/unitIcon/BTNBeastMaster.png",
                     "frases": []
                 },
+<<<<<<< Updated upstream
                 "jefeTauren": {
                     "nombre": "Jefe Tauren",
                     "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
                     "frases": []
                 },
+=======
+>>>>>>> Stashed changes
                 "rokhan": {
                     "nombre": "Rokhan",
                     "icono": "../img/unitIcon/BTNShadowHunter.png",
@@ -411,6 +411,11 @@
                 "jineteDeViento": {
                     "nombre": "Jinete De Viento",
                     "icono": "../img/unitIcon/BTNWyvernRider.png",
+                    "frases": []
+                },
+                "cairne": {
+                    "nombre": "Cairne Bloodhoof",
+                    "icono": "../img/unitIcon/BTNHeroTaurenChieftain.png",
                     "frases": []
                 },
                 "incursor": {
@@ -579,7 +584,6 @@
                     "frases": []
                 },
                 "malfurion": {
-                    "nombre": "Malfurion Stormrage", 
                     "icono": "../img/unitIcon/BTNFurion.png",
                     "frases": []
                 },
@@ -773,6 +777,62 @@
         "extras": {
             "nombre": "Extras",
             "unidades": {}
+            "unidades": {
+                "otrosJuegos": {
+                    "nombre": "Otros Juegos",
+                    "icono": "../img/unitIcon/BTNSelectHeroOff.png"
+                },
+                "giganteDeLaMontaña": {
+                    "nombre": "Gigante De La Montaña",
+                    "icono": "../img/creatureIcon/BTNMountainGiant.png",
+                    "frases": []
+                },
+                "cerdo": {
+                    "nombre": "Cerdo",
+                    "icono": "../img/creatureIcon/BTNPig.png",
+                    "frases": []
+                },
+                "dragonFeerico": {
+                    "nombre": "Dragón Faérico",
+                    "icono": "../img/creatureIcon/BTNFaerieDragon.png",
+                    "frases": []
+                },
+                "couatl": {
+                    "nombre": "Couatl",
+                    "icono": "../img/creatureIcon/BTNWindSerpent.png",
+                    "frases": []
+                },
+                "taracas": {
+                    "nombre": "Tarasca",
+                    "icono": "../img/creatureIcon/BTNSnapDragon.png",
+                    "frases": []
+                },
+                "tuskarr": {
+                    "nombre": "Tuskarr",
+                    "icono": "../img/creatureIcon/BTNTuskaar.png",
+                    "frases": []
+                },
+                "mamut": {
+                    "nombre": "Mamut",
+                    "icono": "../img/creatureIcon/BTNMammoth.png",
+                    "frases": []
+                },
+                "hidra": {
+                    "nombre": "Hidra",
+                    "icono": "../img/creatureIcon/BTNHydra.png",
+                    "frases": []
+                },
+                "giganteMarino": {
+                    "nombre": "Gigante Marino",
+                    "icono": "../img/creatureIcon/BTNSeaGiant.png",
+                    "frases": []
+                },
+                "aracnatido": {
+                    "nombre": "Aracnátido",
+                    "icono": "../img/creatureIcon/BTNArachnathid.png",
+                    "frases": []
+                }
+            }
         }
     }
 }

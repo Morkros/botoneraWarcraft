@@ -40,6 +40,24 @@ body {
   min-height: 80vh;
 }
 
+.texto {
+  width: 510px;
+  min-height: 120px;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.firma {
+  margin-top: 10px;
+  font-size: 18px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  text-align: right;
+  width: fit-content;
+}
+
 /* =======================
    BOTONES GENERALES
 ======================= */
@@ -253,6 +271,43 @@ body {
 }
 
 /* =======================
+   CRÉDITOS
+======================= */
+.gridCredito {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.botonCredito {
+  width: 150px;
+  height: 40px;
+  background-image: url('../img/buttons/generalUse/darkGoldButtonUp.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'FRIZQT', sans-serif;
+  font-size: 18px;
+  color: white;
+  border: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.botonCredito:active {
+  background-image: url('../img/buttons/generalUse/darkGoldButtonDown.png');
+}
+
+
+/* =======================
    RESPONSIVE DESIGN
 ======================= */
 @media (max-width: 768px) {
@@ -260,6 +315,34 @@ body {
     width: 100px;
     height: 28px;
     font-size: 14px;
+  }
+
+  .botonAnterior,
+  .botonSiguiente {
+    width: 45px;
+    height: 45px;
+  }
+
+  .botonAnterior {
+    left: 35vw;
+  }
+
+  .botonSiguiente {
+    right: 35vw;
+  }
+
+  .botonAnteriorInactivo,
+  .botonSiguienteInactivo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .botonAnteriorInactivo {
+    left: 35vw;
+  }
+
+  .botonSiguienteInactivo {
+    right: 35vw;
   }
 
   .logoBotonera {
@@ -292,6 +375,35 @@ body {
     height: 26px;
     font-size: 12px;
   }
+
+  .botonAnterior,
+  .botonSiguiente {
+    width: 45px;
+    height: 45px;
+  }
+
+  .botonAnterior {
+    left: 30vw;
+  }
+
+  .botonSiguiente {
+    right: 30vw;
+  }
+
+  .botonAnteriorInactivo,
+  .botonSiguienteInactivo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .botonAnteriorInactivo {
+    left: 30vw;
+  }
+
+  .botonSiguienteInactivo {
+    right: 30vw;
+  }
+
 
   .logoBotonera {
     width: 160px;

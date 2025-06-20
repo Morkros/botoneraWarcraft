@@ -26,23 +26,28 @@ function renderUnidades() {
   const fin = inicio + unidadesPorPagina;
   const pagina = unidades.slice(inicio, fin);
 
-  pagina.forEach(unidad => {
-    const contenedorUnidad = document.createElement('div');
-    contenedorUnidad.className = 'iconoTexto';
+Object.entries(unidades.slice(inicio, fin)).forEach(([claveUnidad, unidad]) => {
+  const contenedorUnidad = document.createElement('div');
+  contenedorUnidad.className = 'iconoTexto';
 
-    const img = document.createElement('img');
-    img.src = unidad.icono;
-    img.alt = unidad.nombre;
-    img.className = 'iconoImg';
+  const img = document.createElement('img');
+  img.src = unidad.icono;
+  img.alt = unidad.nombre;
+  img.className = 'iconoImg';
 
-    const texto = document.createElement('div');
-    texto.className = 'nombreIcono';
-    texto.textContent = unidad.nombre;
+  const texto = document.createElement('div');
+  texto.className = 'nombreIcono';
+  texto.textContent = unidad.nombre;
 
-    contenedorUnidad.appendChild(img);
-    contenedorUnidad.appendChild(texto);
-    contenedor.appendChild(contenedorUnidad);
-  });
+  contenedorUnidad.appendChild(img);
+  contenedorUnidad.appendChild(texto);
+  contenedor.appendChild(contenedorUnidad);
+
+  // 👉 Este onclick usa la clave original (ej: "arthas")
+  contenedorUnidad.onclick = () => {
+    const url = `sounds.html?unidad=${encodeURIComponent(claveUnidad)}&raza=${encodeURIComponent(razaIngresada)}`;
+    window.location.href = url;
+  };
 
   if (paginaActual > 0) {
     botonAnteriorClase.className = 'botonAnterior';
@@ -53,7 +58,9 @@ function renderUnidades() {
     botonSiguienteClase.className = 'botonSiguienteInactivo';
   } else {
     botonSiguienteClase.className = 'botonSiguiente';
-  }
+  };
+});
+
 }
 
 // Event listeners de paginación
