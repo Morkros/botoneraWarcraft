@@ -17,47 +17,47 @@
                         },
                         {
                             "texto": "Dejádmelos a mí",
-                            "audio": "footmanYesAttack1.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanYesAttack1.wav"
                         },
                         {
                             "texto": "Al ataque!",
-                            "audio": "footmanYesAttack2.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanYesAttack2.wav"
                         },
                         {
                             "texto": "A las armas!",
-                            "audio": "footmanYesAttack3.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanYesAttack3.wav"
                         },
                         {
                             "texto": "No me chilles que no te veo",
-                            "audio": "footmanPissed1.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanPissed1.wav"
                         },
                         {
                             "texto": "Pilla la espada y con la horda acaba",
-                            "audio": "footmanPissed2.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanPissed2.wav"
                         },
                         {
                             "texto": "Nadie es perfecto, por suerte",
-                            "audio": "footmanPissed4.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanPissed4.wav"
                         },
                         {
                             "texto": "Listo para la acción",
-                            "audio": "footmanReady1.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanReady1.wav"
                         },
                         {
                             "texto": "Por Lordaeron",
-                            "audio": "footmanWarcry1.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanWarcry1.wav"
                         },
                         {
                             "texto": "¿Órdenes?",
-                            "audio": "footmanWhat1.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanWhat1.wav"
                         },
                         {
                             "texto": "¿Qué necesitas?",
-                            "audio": "footmanWhat2.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanWhat2.wav"
                         },
                         {
                             "texto": "Di la palabra",
-                            "audio": "footmanWhat4.wav"
+                            "audio": "../sounds/humans/soldadoRaso/footmanWhat4.wav"
                         }
                     ]
                 },
@@ -67,83 +67,83 @@
                     "frases": [
                         {
                             "texto": "La luz es mi fuerza",
-                            "audio": "arthasWhat1.wav"
+                            "audio": "../sounds/humans/Arthas/arthasWhat1.wav"
                         },
                         {
                             "texto": "No es necesario hacer una reverencia",
-                            "audio": "arthasWhat4.wav"
+                            "audio": "../sounds/humans/Arthas/arthasWhat4.wav"
                         },
                         {
                             "texto": "Un plan sólido",
-                            "audio": "arthasYes3.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYes3.wav"
                         },
                         {
                             "texto": "Estúpido bellaco",
-                            "audio": "arthasYesAttack1.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYesAttack1.wav"
                         },
                         {
                             "texto": "Siente mi cólera",
-                            "audio": "arthasYesAttack5.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYesAttack5.wav"
                         },
                         {
                             "texto": "Ha llegado la justicia",
-                            "audio": "arthasYesAttack6.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYesAttack6.wav"
                         },
                         {
                             "texto": "Hay que purgar toda la ciudad",
-                            "audio": "H06Arthas06.wav"
+                            "audio": "../sounds/humans/Arthas/H06Arthas06.wav"
                         },
                         {
                             "texto": "¿Tengo que considerarlo como un acto de traición?",
-                            "audio": "H06Arthas10.wav"
+                            "audio": "../sounds/humans/Arthas/H06Arthas10.wav"
                         },
                         {
                             "texto": "No tienes remedio",
-                            "audio": "arthasYesAttack3.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYesAttack3.wav"
                         },
                         {
                             "texto": "Por mi padre, el rey",
-                            "audio": "arthasYesAttack2.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYesAttack2.wav"
                         },
                         {
                             "texto": "Por el honor",
-                            "audio": "arthasYes4.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYes4.wav"
                         },
                         {
                             "texto": "Por supuesto",
-                            "audio": "arthasYes2.wav"
+                            "audio": "../sounds/humans/Arthas/arthasYes2.wav"
                         },
                         {
                             "texto": "Lucho por la luz",
-                            "audio": "arthasWhat3.wav"
+                            "audio": "../sounds/humans/Arthas/arthasWhat3.wav"
                         },
                         {
                             "texto": "¿Hay algún peligro?",
-                            "audio": "arthasWhat2.wav"
+                            "audio": "../sounds/humans/Arthas/arthasWhat2.wav"
                         },
                         {
                             "texto": "Por Lordaeron",
-                            "audio": "arthasWarcry1.wav"
+                            "audio": "../sounds/humans/Arthas/arthasWarcry1.wav"
                         },
                         {
                             "texto": "Se lo que estoy haciendo",
-                            "audio": "arthasPissed6.wav"
+                            "audio": "../sounds/humans/Arthas/arthasPissed6.wav"
                         },
                         {
                             "texto": "Que la luz ilumine mi camino",
-                            "audio": "arthasPissed3.wav"
+                            "audio": "../sounds/humans/Arthas/arthasPissed3.wav"
                         },
                         {
                             "texto": "Debería estar yo al mando",
-                            "audio": "arthasPissed5.wav"
+                            "audio": "../sounds/humans/Arthas/arthasPissed5.wav"
                         },
                         {
                             "texto": "Que la luz me de fuerza",
-                            "audio": "arthasPissed4.wav"
+                            "audio": "../sounds/humans/Arthas/arthasPissed4.wav"
                         },
                         {
                             "texto": "Maldito seas Mal'Ganis, te perseguire hasta los confines de la tierra",
-                            "audio": "h06arthas46.wav"
+                            "audio": "../sounds/humans/Arthas/h06arthas46.wav"
                         }
                     ]
                 },

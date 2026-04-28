@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Botonera Warcraft</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="bodyCentrada">
+
+  <!-- Nombre de la unidad -->
+  <div id="nombreUnidad" class="tituloRaza"></div>
+
+  <!-- Contenedor de frases -->
+  <div id="unidadSonidos" class="contenedorGeneralFrases"></div>
+
+  <!-- Botón volver -->
+  <div class="navegacionUnidades">
+    <button class="botonAnterior" id="botonAnterior"></button>
+    
+    <button class="botonWarcraft botonSecundario" onclick="cambiarVista('categories', '../sounds/interface/mouseClick.wav')">
+      Volver
+    </button>
+      
+    <button class="botonSiguiente" id="botonSiguiente"></button>
+  </div>
+
+</body>
+<script src="../js/loadSounds.js"></script>
+<script src="../js/functions.js"></script>
+</html>

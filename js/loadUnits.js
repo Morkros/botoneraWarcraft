@@ -12,7 +12,7 @@ let botonSiguienteClase = document.getElementById('botonSiguiente');
 fetch('../js/races.json')
   .then(res => res.json())
   .then(data => {
-    unidades = Object.values(data.razas[razaIngresada].unidades);
+    unidades = data.razas[razaIngresada].unidades;
     document.getElementById('nombreRaza').textContent = data.razas[razaIngresada].nombre;
     renderUnidades();
   })
@@ -24,43 +24,46 @@ function renderUnidades() {
 
   const inicio = paginaActual * unidadesPorPagina;
   const fin = inicio + unidadesPorPagina;
-  const pagina = unidades.slice(inicio, fin);
 
-Object.entries(unidades.slice(inicio, fin)).forEach(([claveUnidad, unidad]) => {
-  const contenedorUnidad = document.createElement('div');
-  contenedorUnidad.className = 'iconoTexto';
+  const unidadesArray = Object.entries(unidades);
+  const unidadesPagina = unidadesArray.slice(inicio, fin);
 
-  const img = document.createElement('img');
-  img.src = unidad.icono;
-  img.alt = unidad.nombre;
-  img.className = 'iconoImg';
+  unidadesPagina.forEach(([claveUnidad, unidad]) => {
+    console.log('claveunidad: ', claveUnidad, 'Unidad actual:', unidad);
 
-  const texto = document.createElement('div');
-  texto.className = 'nombreIcono';
-  texto.textContent = unidad.nombre;
+    const contenedorUnidad = document.createElement('div');
+    contenedorUnidad.className = 'iconoTexto';
 
-  contenedorUnidad.appendChild(img);
-  contenedorUnidad.appendChild(texto);
-  contenedor.appendChild(contenedorUnidad);
+    const img = document.createElement('img');
+    img.src = unidad.icono;
+    img.alt = unidad.nombre;
+    img.className = 'iconoImg';
 
-  // 👉 Este onclick usa la clave original (ej: "arthas")
-  contenedorUnidad.onclick = () => {
-    const url = `sounds.html?unidad=${encodeURIComponent(claveUnidad)}&raza=${encodeURIComponent(razaIngresada)}`;
-    window.location.href = url;
-  };
+    const texto = document.createElement('div');
+    texto.className = 'nombreIcono';
+    texto.textContent = unidad.nombre;
+
+    contenedorUnidad.appendChild(img);
+    contenedorUnidad.appendChild(texto);
+    contenedor.appendChild(contenedorUnidad);
+
+    contenedorUnidad.onclick = () => {
+      const url = `sounds.html?raza=${encodeURIComponent(razaIngresada)}&unidad=${encodeURIComponent(claveUnidad)}`;
+      window.location.href = url;
+    };
+  });
 
   if (paginaActual > 0) {
     botonAnteriorClase.className = 'botonAnterior';
   } else {
     botonAnteriorClase.className = 'botonAnteriorInactivo';
   }
-  if ((paginaActual + 1) * unidadesPorPagina >= unidades.length) {
+
+  if ((paginaActual + 1) * unidadesPorPagina >= unidadesArray.length) {
     botonSiguienteClase.className = 'botonSiguienteInactivo';
   } else {
     botonSiguienteClase.className = 'botonSiguiente';
-  };
-});
-
+  }
 }
 
 // Event listeners de paginación
@@ -86,7 +89,7 @@ document.getElementById('botonSiguiente').addEventListener('click', () => {
     new Audio('../sounds/interface/error.wav').play();
   }
 
-  if ((paginaActual + 1) * unidadesPorPagina < unidades.length) {
+  if ((paginaActual + 1) * unidadesPorPagina < Object.keys(unidades).length) {
     setTimeout(() => {
       paginaActual++;
       renderUnidades();
